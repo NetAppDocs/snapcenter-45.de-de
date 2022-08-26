@@ -1,0 +1,27 @@
+---
+permalink: install/task_disconnect_an_iscsi_session.html 
+sidebar: sidebar 
+keywords: iSCSI session 
+summary: Gelegentlich müssen Sie eine iSCSI-Sitzung von einem Ziel trennen, mit dem Sie mehrere Sitzungen haben. 
+---
+= Trennen Sie eine iSCSI-Sitzung
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Gelegentlich müssen Sie eine iSCSI-Sitzung von einem Ziel trennen, mit dem Sie mehrere Sitzungen haben.
+
+*Schritte*
+
+. Klicken Sie im linken Navigationsbereich auf *Hosts*.
+. Klicken Sie auf der Host-Seite auf *iSCSI-Sitzung*.
+. Wählen Sie aus der Dropdown-Liste *Storage Virtual Machine* die Storage Virtual Machine (SVM) für das iSCSI-Ziel aus.
+. Wählen Sie aus der Dropdown-Liste *Host* den Host für die Sitzung aus.
+. Wählen Sie aus der Liste der iSCSI-Sitzungen die Sitzung aus, die Sie trennen möchten, und klicken Sie auf *Sitzung trennen*.
+. Klicken Sie im Dialogfeld Sitzung trennen auf *OK*.
++
+SnapCenter trennt die iSCSI-Sitzung.
+
+

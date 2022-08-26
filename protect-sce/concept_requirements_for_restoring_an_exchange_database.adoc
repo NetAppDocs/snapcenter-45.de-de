@@ -1,0 +1,24 @@
+---
+permalink: protect-sce/concept_requirements_for_restoring_an_exchange_database.html 
+sidebar: sidebar 
+keywords:  
+summary: Bevor Sie eine Exchange Server-Datenbank aus einem SnapCenter Plug-in für Microsoft Exchange Server-Backup wiederherstellen, müssen Sie sicherstellen, dass mehrere Anforderungen erfüllt sind. 
+---
+= Anforderungen für die Wiederherstellung einer Exchange-Datenbank
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Bevor Sie eine Exchange Server-Datenbank aus einem SnapCenter Plug-in für Microsoft Exchange Server-Backup wiederherstellen, müssen Sie sicherstellen, dass mehrere Anforderungen erfüllt sind.
+
+* Der Exchange Server muss online sein und ausgeführt werden, bevor Sie eine Datenbank wiederherstellen können.
+* Die Datenbanken müssen auf dem Exchange Server vorhanden sein.
++
+
+NOTE: Die Wiederherstellung gelöschter Datenbanken wird nicht unterstützt.
+
+* SnapCenter-Zeitpläne für die Datenbank müssen ausgesetzt werden.
+* Der SnapCenter Server und das SnapCenter Plug-in für Microsoft Exchange Server Host müssen mit dem primären und sekundären Storage verbunden sein, der die wiederherzustellenden Backups enthält.
+
