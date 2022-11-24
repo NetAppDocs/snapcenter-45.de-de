@@ -196,4 +196,6 @@ Netzwerkschnittstelle wird angezeigt
 
 vserver
 
+MetroCluster zeigen
+
 |===
