@@ -161,7 +161,7 @@ Wählen Sie *Externe Archiv-Log-Speicherorte angeben* und geben Sie dann den Spe
 
 Wenn Archivprotokolle im Rahmen der Sicherung beschnitten werden und Sie die erforderlichen Archiv-Log-Backups manuell gemountet haben, müssen Sie den gemounteten Backup-Pfad als externen Archiv-Log-Speicherort für die Wiederherstellung angeben.
 
-** http://www.netapp.com/us/media/tr-4591.pdf["Technischer Bericht 4591 zu Datenbanksicherheit, Recovery, Replizierung und DR"^]
+** https://docs.netapp.com/us-en/ontap-apps-dbs/oracle/oracle-dp-overview.html["Oracle Datensicherung mit ONTAP"^]
 ** https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/ORA-00308%3A_cannot_open_archived_log_ORA_LOG_arch1_123_456789012.arc["Der Vorgang schlägt mit ORA-00308-Fehler fehl"^]
 
 
